@@ -1,0 +1,52 @@
+.main
+{
+    height: fit-content;
+    width: 30rem;
+    background-color: #cabdbd;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+input{
+    width: 13rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+
+#ul
+{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    list-style:none;
+   text-align: left;
+   padding-top: 0.6rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.3rem;
+color:black;
+
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    margin-right: 4rem;
+    margin-left: 1rem;
+}
+
+button:hover
+{
+border: 1.5px solid darkblue;
+border-radius: 0.1rem;
+}
+
